@@ -1,0 +1,7 @@
+# RUN: choco-lexer %s | filecheck %s
+
+pass
+
+# CHECK:      PASS
+# CHECK-NEXT: NEWLINE
+# CHECK-NEXT: EOF
